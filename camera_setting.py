@@ -3,6 +3,7 @@
 """ camera 模块 fisheye 鱼眼相机校正"""
 import numpy as np
 import cv2
+import copy
 
 
 def undistorted(image_pic):
